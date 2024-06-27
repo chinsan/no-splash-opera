@@ -12,7 +12,7 @@ This script will automatically delete it for you when starting the browser
 
 - Download the zip from the releases page and extract it
 - Move the extracted folder to the Opera folder, the default location is `%userprofile%\AppData\Local\Programs\Opera`
-- Pin Opera GX to your taskbar (if you don't have it already pinned)
+- Pin Opera to your taskbar (if you don't have it already pinned)
 - On the extracted folder run the `setup.vbs` and that's it
 
 # How does this work

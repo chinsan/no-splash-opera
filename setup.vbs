@@ -9,14 +9,14 @@ newpath = curDir & "\run_no_splash.vbs"
 iconpath = sysObj.GetParentFolderName(curDir) & "\opera.exe"
 
 ' taskbar shortcut
-Set shortcut = sh.CreateShortcut(userprofile & "\Appdata\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Opera GX Browser.lnk")
+Set shortcut = sh.CreateShortcut(userprofile & "\Appdata\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Opera Browser.lnk")
 shortcut.TargetPath = newpath
 shortcut.WorkingDirectory = curDir
 shortcut.IconLocation = iconpath
 shortcut.Save
 
 ' start menu shortcut
-Set shortcut = sh.CreateShortcut(userprofile & "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Opera GX Browser.lnk")
+Set shortcut = sh.CreateShortcut(userprofile & "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Opera Browser.lnk")
 shortcut.TargetPath = newpath
 shortcut.WorkingDirectory = curDir
 shortcut.IconLocation = iconpath
